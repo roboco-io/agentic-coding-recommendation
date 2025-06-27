@@ -4,6 +4,12 @@ preview:
 pdf:
 	marp slides.md -o slides.pdf
 
+pdf-notes:
+	marp slides.md -o slides.pdf --pdf-notes
+
+pptx:
+	marp slides.md -o slides.pptx
+
 gh-pages:
 	mkdir -p dist
 	cp slides.html dist/
