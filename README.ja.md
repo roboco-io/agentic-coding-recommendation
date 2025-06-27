@@ -16,7 +16,7 @@
 
 ## スライドへのリンク
 
-👉 [スライドを見る (GitHub Pages)](https://roboco-io.github.io/agentic-coding-recommendation/slides.html)
+👉 [スライドを見る (GitHub Pages)](https://roboco-io.github.io/agentic-coding-recommendation/slides.ja.html)
 
 ## 生成されたファイル
 
