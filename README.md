@@ -20,7 +20,6 @@
 
 ## 생성된 파일
 
-- [슬라이드 (HTML, GitHub Pages)](https://roboco-io.github.io/agentic-coding-recommendation/slides.html)
 - [슬라이드 PDF (slides.pdf)](./slides.pdf)
 - [슬라이드 PPTX (slides.pptx)](./slides.pptx)
 

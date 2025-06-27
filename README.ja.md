@@ -20,9 +20,6 @@
 
 ## 生成されたファイル
 
-- [スライド (HTML, GitHub Pages)](https://roboco-io.github.io/agentic-coding-recommendation/slides.html)
-- [スライド PDF (slides.pdf)](./slides.pdf)
-- [スライド PPTX (slides.pptx)](./slides.pptx)
 - [スライド PDF (slides.ja.pdf)](./slides.ja.pdf)
 - [スライド PPTX (slides.ja.pptx)](./slides.ja.pptx)
 
