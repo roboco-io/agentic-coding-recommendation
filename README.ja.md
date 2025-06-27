@@ -31,3 +31,5 @@
 - `make pdf`でPDF変換
 - `make pdf-notes`で発表者ノート付きPDF変換
 - `make pptx`で発表者ノート付きPPTX変換
+
+[한국어 README는 여기를 클릭하세요](./README.md)

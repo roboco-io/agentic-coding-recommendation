@@ -28,4 +28,6 @@
 - `make preview`로 로컬 미리보기
 - `make pdf`로 PDF 변환
 - `make pdf-notes`로 발표자 노트 포함 PDF 변환
-- `make pptx`로 발표자 노트 포함 PPTX 변환 
+- `make pptx`로 발표자 노트 포함 PPTX 변환
+
+[日本語READMEはこちら](./README.ja.md) 
