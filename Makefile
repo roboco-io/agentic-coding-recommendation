@@ -1,3 +1,5 @@
+all: pdf-notes pptx pdf-notes-ja pptx-ja
+
 preview:
 	marp slides.md --preview
 

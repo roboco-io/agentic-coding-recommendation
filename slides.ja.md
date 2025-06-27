@@ -8,9 +8,8 @@ paginate: true
 size: 16:9
 ---
 
-# Agentic Coding  
-### Recommendations  
-#### 鄭道現 · 2025-06-26
+# Agentic Coding Recommendations  
+#### 鄭道鉉（Roboco） · 2025-06-26
 
 ---
 
