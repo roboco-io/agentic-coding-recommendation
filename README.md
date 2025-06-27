@@ -1,3 +1,5 @@
+[日本語READMEはこちら](./README.ja.md) 
+
 # Agentic Coding Recommendation
 
 이 프로젝트는 **바이브 코딩(Vibe Coding) 기법**을 활용하여, 블로그 글로부터 슬라이드와 발표자 노트를 자동으로 생성하는 POC(Proof of Concept)입니다.
@@ -30,4 +32,3 @@
 - `make pdf-notes`로 발표자 노트 포함 PDF 변환
 - `make pptx`로 발표자 노트 포함 PPTX 변환
 
-[日本語READMEはこちら](./README.ja.md) 
