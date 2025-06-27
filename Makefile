@@ -25,39 +25,18 @@ pptx-ja:
 
 gh-pages:
 	mkdir -p dist
-	cp slides.html dist/
-	cd dist && git init
-	cd dist && git config user.name "github-actions"
-	cd dist && git config user.email "actions@github.com"
-	cd dist && git checkout -b gh-pages
-	cd dist && git add slides.html
-	cd dist && git commit -m "Deploy slide"
-	cd dist && git remote add origin https://github.com/roboco-io/agentic-coding-recommendation.git || true
-	cd dist && git push -f origin gh-pages
-	rm -rf dist/.git
-
-gh-pages-ko:
-	mkdir -p dist
+	# Generate HTML files first
+	marp slides.md -o dist/slides.ko.html
+	marp slides.ja.md -o dist/slides.ja.html
+	# Copy Korean version as default index
 	cp dist/slides.ko.html dist/index.html
+	# Deploy to GitHub Pages
 	cd dist && git init
 	cd dist && git config user.name "github-actions"
 	cd dist && git config user.email "actions@github.com"
 	cd dist && git checkout -b gh-pages
-	cd dist && git add index.html
-	cd dist && git commit -m "Deploy Korean slide"
-	cd dist && git remote add origin https://github.com/roboco-io/agentic-coding-recommendation.git || true
-	cd dist && git push -f origin gh-pages
-	rm -rf dist/.git
-
-gh-pages-ja:
-	mkdir -p dist
-	cp dist/slides.ja.html dist/index.html
-	cd dist && git init
-	cd dist && git config user.name "github-actions"
-	cd dist && git config user.email "actions@github.com"
-	cd dist && git checkout -b gh-pages
-	cd dist && git add index.html
-	cd dist && git commit -m "Deploy Japanese slide"
+	cd dist && git add .
+	cd dist && git commit -m "Deploy Korean and Japanese slides"
 	cd dist && git remote add origin https://github.com/roboco-io/agentic-coding-recommendation.git || true
 	cd dist && git push -f origin gh-pages
 	rm -rf dist/.git 
