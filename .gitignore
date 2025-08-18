@@ -1,0 +1,18 @@
+# Generated presentation files
+*.pdf
+*.pptx
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Build directories
+dist/
+.marp/

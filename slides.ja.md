@@ -13,6 +13,28 @@ size: 16:9
 
 ---
 
+## 自己紹介
+- 名前: 鄭道鉉(ジョンドヒョン)
+- 経験
+  - 95年からFrontend Developer
+  - 2016年からAWS Korea Sr.Technical Trainer,Sr.SDE
+  - 2025年からRoboco 代表取締役
+- 趣味: バイブコーディング, Cycling
+
+---
+
+## Roboco
+- 自分を含め、合計4人が所属
+- アマゾンとグーグル出身のエンジニアが中心となって設立
+- メンバー一人一人が独立したソフトウェア開発会社のように運営
+
+---
+
+## 発表資料について
+
+この発表は、Armin Ronacher氏のブログ - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)記事をChatGPTで発表者ノート付き[Marp(Markdown Presentation Ecosustem)](https://marp.app/)に変換したものである。
+
+---
 ## アジェンダ
 1. Why Agentic Coding?
 2. The Basics
@@ -27,11 +49,12 @@ size: 16:9
 ---
 
 ## The Basics
-- **権限確認を無効化** → 高速ループ  
+- **権限確認を無効化 `cursor --dangerously-allow-permissions`** → 高速ループ  
 - **MCPは最小限**  
-  - 通常のシェル/スクリプトで十分なら、そのまま使用  
+  - 通常のシェルスクリプトで十分
+  - 自分はPlaywrightとPerplexity-askを活用
 - **Dockerサンドボックス推奨** （リスク軽減）  
-- **IDE依存を最小化** → Vim + 最終編集
+- **IDE依存を最小化**
 
 <!--
 **Presenter Notes:**
