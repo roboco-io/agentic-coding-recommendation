@@ -76,10 +76,8 @@ gh-pages:
 	@echo ""
 	mkdir -p dist
 	# Generate HTML files first
-	marp slides.md -o dist/slides.ko.html
+	marp slides.md -o dist/index.html
 	marp slides.ja.md -o dist/slides.ja.html
-	# Copy Korean version as default index
-	cp dist/slides.ko.html dist/index.html
 	# Deploy to GitHub Pages
 	cd dist && git init
 	cd dist && git config user.name "github-actions"
@@ -99,7 +97,6 @@ gh-pages:
 	@echo ""
 	@echo "  🇰🇷 한국어 (기본):"
 	@echo "     https://roboco-io.github.io/agentic-coding-recommendation/"
-	@echo "     https://roboco-io.github.io/agentic-coding-recommendation/slides.ko.html"
 	@echo ""
 	@echo "  🇯🇵 일본어:"
 	@echo "     https://roboco-io.github.io/agentic-coding-recommendation/slides.ja.html"

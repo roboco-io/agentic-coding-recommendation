@@ -20,7 +20,6 @@
 
 ## 生成されたファイル
 
-- [スライド PDF (slides.ja.pdf)](./slides.ja.pdf)
 - [スライド PPTX (slides.ja.pptx)](./slides.ja.pptx)
 
 ---

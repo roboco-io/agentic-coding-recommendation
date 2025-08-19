@@ -17,6 +17,8 @@ size: 16:9
 - 名前: 鄭道鉉(ジョンドヒョン)
 - 経験
   - 95年からFrontend Developer
+  - 2002年から2016年まで日本でITコンサルティングとシステム開発を経験
+    - 豆蔵でITコンサルタントとして勤務
   - 2016年からAWS Korea Sr.Technical Trainer,Sr.SDE
   - 2025年からRoboco 代表取締役
 - 趣味: バイブコーディング, Cycling
@@ -32,7 +34,10 @@ size: 16:9
 
 ## 発表資料について
 
-この発表は、Armin Ronacher氏のブログ - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)記事をChatGPTで発表者ノート付き[Marp(Markdown Presentation Ecosustem)](https://marp.app/)に変換したものである。
+この発表は、Armin Ronacher氏のブログ - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/)記事をChatGPTで発表者ノート付き[Marp(Markdown Presentation Ecosystem)](https://marp.app/)に変換したものである
+
+https://github.com/roboco-io/agentic-coding-recommendation/
+
 
 ---
 ## アジェンダ
@@ -49,7 +54,8 @@ size: 16:9
 ---
 
 ## The Basics
-- **権限確認を無効化 `cursor --dangerously-allow-permissions`** → 高速ループ  
+- **権限確認を無効化** 
+  - `claude --dangerously-allow-permissions` → 高速ループ  
 - **MCPは最小限**  
   - 通常のシェルスクリプトで十分
   - 自分はPlaywrightとPerplexity-askを活用
@@ -89,7 +95,7 @@ size: 16:9
 ---
 
 ## Tools, Tools, Tools
-- **何でもツール** （スクリプト・ログ・MCPサーバー）  
+- **VibeCodingでもツールは重要です** （スクリプト・ログ・MCPサーバー）  
 - 核心4原則  
   1. 高速であること  
   2. 明確なエラーメッセージ  

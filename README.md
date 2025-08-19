@@ -16,11 +16,10 @@
 
 ## 슬라이드 바로가기
 
-👉 [슬라이드 보기 (GitHub Pages)](https://roboco-io.github.io/agentic-coding-recommendation/slides.ko.html)
+👉 [슬라이드 보기 (GitHub Pages)](https://roboco-io.github.io/agentic-coding-recommendation/)
 
 ## 생성된 파일
 
-- [슬라이드 PDF (slides.pdf)](./slides.pdf)
 - [슬라이드 PPTX (slides.pptx)](./slides.pptx)
 
 ---

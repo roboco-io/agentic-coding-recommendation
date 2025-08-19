@@ -3,13 +3,17 @@ marp: false
 title: Agentic Coding Recommendations
 description: 에이전트 기반 개발을 위한 실전 가이드
 author: Dohyun Jung
-theme: default
+theme: defaule
+darkTheme: default
 paginate: true
 size: 16:9
 ---
 
 # Agentic Coding Recommendations  
 #### 정도현(Roboco) · 2025-06-26
+
+
+#### [Japanese Version](https://roboco-io.github.io/agentic-coding-recommendation/slides.ja.html)
 
 ---
 
