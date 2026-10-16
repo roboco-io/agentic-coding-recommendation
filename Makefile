@@ -1,3 +1,6 @@
+# Google Analytics 4 (gtag.js)
+GA_HEAD = <script async src="https://www.googletagmanager.com/gtag/js?id=G-9G1SGM9SZQ"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-9G1SGM9SZQ");</script>
+
 .PHONY: help all preview pdf pdf-notes pptx preview-ja pdf-ja pdf-notes-ja pptx-ja gh-pages
 
 # 기본 타겟: 도움말 표시
@@ -78,6 +81,8 @@ gh-pages:
 	# Generate HTML files first
 	marp slides.md -o dist/index.html
 	marp slides.ja.md -o dist/slides.ja.html
+	# Inject Google Analytics 4 (gtag.js) into <head>
+	perl -0pi -e 's#</head>#$(GA_HEAD)</head>#' dist/index.html dist/slides.ja.html
 	# Deploy to GitHub Pages
 	cd dist && git init
 	cd dist && git config user.name "github-actions"
